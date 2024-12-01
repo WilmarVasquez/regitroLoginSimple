@@ -1,0 +1,68 @@
+body {
+  background-color: #1c1c1c; /* Fondo negro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+.auth-container {
+  background-color: #333; /* Fondo gris oscuro */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px;
+}
+
+.auth-container h1 {
+  color: #82b1ff; /* Color azul claro */
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.auth-container input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a6572; /* Gris azulado */
+  color: white;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.auth-container button.login-btn {
+  background-color: #ff9800; /* Naranja */
+  color: white;
+}
+
+.auth-container button.register-btn {
+  background-color: #66bb6a; /* Verde */
+  color: white;
+}
+
+.forgot-password {
+  color: #bbbbbb; /* Gris claro */
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.auth-container footer {
+  color: #bbbbbb;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+}
